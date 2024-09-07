@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prev" class="nav-btn"><</button>
+            <h2 id="calendar-title"></h2>
+            <button id="next" class="nav-btn">></button>
+        </div>
+        
+        
+        <div class="calendar-view">
+            <button id="day-view" class="view-btn">Day</button>
+            <button id="week-view" class="view-btn">Week</button>
+            <button id="month-view" class="view-btn active">Month</button>
+        </div>
+        
+        <div class="calendar-body" id="calendar-body">
+            <!-- Calendar will render here -->
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
